@@ -1,5 +1,5 @@
 import * as React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Pressable } from "react-native";
 
 //----------------------------------importing components----------------------------------
 import LittleLemonHeader from "./components/LittleLemonHeader";
@@ -8,6 +8,7 @@ import LittleLemonBody from "./components/LittleLemonBody";
 import MenuItems from "./components/MenuItems";
 import SectionList from "./components/SectionList";
 import TextInput from "./components/FeedbackForm";
+import LoginPage from "./components/Login";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
         {/* <LittleLemonBody /> */}
         {/* <MenuItems /> */}
         {/* <SectionList /> */}
-        <TextInput />
+        {/* <TextInput /> */}
+        <LoginPage />
       </View>
 
       <View style={styles.bottomContainer}>
