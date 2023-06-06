@@ -9,6 +9,8 @@ import MenuItems from "./components/MenuItems";
 import SectionList from "./components/SectionList";
 import TextInput from "./components/FeedbackForm";
 import LoginPage from "./components/Login";
+import LazyDeveloper from "./components/LazyDeveloper";
+import ColorScheme from "./components/ColorSchemeHook";
 
 export default function App() {
   return (
@@ -19,7 +21,9 @@ export default function App() {
         {/* <MenuItems /> */}
         {/* <SectionList /> */}
         {/* <TextInput /> */}
-        <LoginPage />
+        {/* <LoginPage /> */}
+        {/* <LazyDeveloper /> */}
+        <ColorScheme />
       </View>
 
       <View style={styles.bottomContainer}>
